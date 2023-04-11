@@ -1,0 +1,58 @@
+body{
+  font-family: 'Manrope', sans-serif;
+  background-color : hsl(218, 23%, 16%);
+}
+
+.container{
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+  max-width: 440px;
+  min-height: 230px;
+  border-radius: 10px;
+  margin: 150px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.dice{
+  position: absolute;
+  top: 245px;
+  left: 220px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 13px 10px 10px; 
+  width: 30px;
+  border-radius: 50px;
+}
+
+.dice:hover{
+  box-shadow: 2px 2px 20px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+p{
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 2px;
+}
+
+h1{
+  color: hsl(193, 38%, 86%);
+}
+
+.image{
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width:500px) {
+  
+  .dice{
+    position: absolute;
+    top: 245px;
+    left: 220px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 13px 10px 10px; 
+    width: 30px;
+    border-radius: 50px;
+  }
+
+}
